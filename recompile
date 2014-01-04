@@ -1,0 +1,1 @@
+apktool b "$sourcePath/xmos_device_tass_api17_app_settings/Settings" "$sourcePath/xmos_device_tass_api17_app_settings/Settings.apk"

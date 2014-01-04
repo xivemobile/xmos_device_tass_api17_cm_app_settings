@@ -1,0 +1,4 @@
+sourcePath=$(realpath ..)
+
+apktool if "$sourcePath/xmos_device_tass_api17_framework-res/framework-res.apk"
+apktool d "$sourcePath/xmos_device_tass_api17_app_settings/Settings.apk" "$sourcePath/xmos_device_tass_api17_app_settings/Settings"
